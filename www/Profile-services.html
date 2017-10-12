@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cybertrassa</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="fonts/ttnorms/ttnorms.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/jasny-bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/filer">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]><script src="assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="http://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="http://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+</head>
+<body>
+<div class="navmenu navmenu-default navmenu-fixed-left offcanvas" id="offcanvas">
+      <a href="#" class="close-offcanvas">
+          <img src="img/close-menu.png"
+             srcset="img/close-menu@2x.png 2x,
+                     img/close-menu@3x.png 3x">
+      </a>
+      <ul class="nav navmenu-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Главная</a>
+              <ul class="dropdown-menu navmenu-nav">
+                <li><a href="#">Сайт</a></li>
+                <li><a href="#">Продвижение</a></li>
+                <li><a href="#">Воронка продаж</a></li>
+                <li><a href="#">Масштабирование</a></li>
+                <li><a href="#">Игра</a></li>
+              </ul>
+            </li>
+          <li><a href="#">Услуги</a></li>
+          <li><a href="#">База знаний</a></li>
+          <li><a href="#">Онлайн-обучение</a></li>
+          <li><a href="#">Каталог сервисов</a></li>
+      </ul>
+    </div>
+    <header class="white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-2">
+                    <a href="/" class="cybertrassa">Cybertrassa</a>
+                </div>
+                <div class="col-lg-8 col-lg-offset-1 col-md-10 hidden-sm hidden-xs">
+                    <ul class="nav nav-pills">
+                      <li><a href="#">О нас</a></li>
+                      <li><a href="#">Услуги</a></li>
+                      <li class="active"><a href="#">База знаний</a></li>
+                      <li><a href="#">Онлайн-обучение</a></li>
+                      <li><a href="#">Каталог сервисов</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <a href="javascript:void(0);" class="hamburger" data-toggle="offcanvas" data-recalc="false" data-target=".navmenu" data-canvas="body">
+            <img src="img/hamburger.png"
+             srcset="img/hamburger@2x.png 2x,
+                     img/hamburger@3x.png 3x">
+        </a>
+        <div class="search">
+            <a href="">
+                <img src="img/search.png"
+                 srcset="img/search@2x.png 2x,
+                     img/search@3x.png 3x">
+            </a>
+            <a href="">
+                <img src="img/user-black.png"
+                 srcset="img/user-black@2x.png 2x,
+                     img/user-black@3x.png 3x">
+            </a>
+        </div>
+    </header>
+    
+<section class="white text article">
+        <div class="container">
+            <div class="base-article just-article">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 hidden-xs hidden-sm">
+                        <div class="base-left-col">
+                            <div class="profile-icon">
+                                <div class="profile-icon-item"><img src="img/ico-petroleum-80.png" alt=""></div>
+                                <div class="profile-icon-item"><p class="my_packet">МОЙ ПАКЕТ <br>УСЛУГ:</p>   
+                                    <div class="prifile-icon-item-ai">АИ-80</div>
+                                </div>
+                            </div>
+                            <div class="profile-nav base-left-col-nav">
+                                <ul class="nav nav-pills nav-stacked">
+                                    <li ><a href="#">Настройки</a></li>
+                                    <li class="active"><a href="#">Услуги в работе (<span>2</span>)</a></li>
+                                    <li><a href="#">Бонусы</a></li>
+                                    <li><a href="#">Баланс</a></li>
+                                    <li><a href="#">Прогресс-бар</a></li>
+                                    <li><a href="#">Блокнот</a></li>
+                                    <li><a href="#">Помощь</a></li>
+                                </ul>
+                            </div>
+                              
+                        </div>    
+                    </div>
+                    <div class="col-lg-offset-1 col-lg-8 col-md-9">
+                    <div class="servises-in-work">
+                      <div class="servises-connect-servis">
+                        <a  data-toggle="modal" data-target="#myModal">
+                          <div class="servises-connect-circle">
+                            <div class="servises-connect-circle-cr1"></div>
+                            <div class="servises-connect-circle-cr2"></div>
+                          </div>
+                          </a>
+                           <p>ПОДКЛЮЧИТЬ УСЛУГИ</p> 
+                      </div>
+                     
+    <div class="modal fade popup-connect-services" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        
+        <ul class="nav nav-tabs">
+  <li class="active"><a href="#drugie" data-toggle="tab">ОТДЕЛЬНЫЕ УСЛУГИ</a></li>
+  <li><a href="#packet" data-toggle="tab">ПАКЕТЫ УСЛУГ</a></li>
+</ul>
+
+      </div>
+      <div class="modal-body">
+       <div class="tab-content">
+  <div class="tab-pane active" id="drugie">
+<table class="table">
+      
+      <tbody>
+        <tr>
+          <td><label class="chebox-custom">
+    <input class="checkbox" type="checkbox" name="checkbox-test">
+    <span class="checkbox-custom"  v-bind:class="{chk-bord-off: bord-off}"></span>
+</label>Написание текста</td>
+          <td>1000 знаков</td>
+          <td>25 бонусов</td>
+        </tr>
+        <tr>
+          <td><label class="chebox-custom">
+    <input class="checkbox" type="checkbox" name="checkbox-test">
+    <span class="checkbox-custom"  v-bind:class="{chk-bord-off: bord-off}"></span>
+</label>Заведение страницы в социальных сетях</td>
+          <td>2 сети</td>
+          <td>15 бонусов</td>
+        </tr>
+        <tr>
+          <td><label class="chebox-custom">
+    <input class="checkbox" type="checkbox" name="checkbox-test">
+    <span class="checkbox-custom"  v-bind:class="{chk-bord-off: bord-off}"></span>
+    
+</label>Проверка настроек счетчиков аналитики</td>
+          <td>1 сессия</td>
+          <td>10 бонусов</td>
+        </tr>
+        <tr>
+          <td><label class="chebox-custom">
+    <input class="checkbox" type="checkbox" name="checkbox-test">
+    <span class="checkbox-custom"  v-bind:class="{chk-bord-off: bord-off}"></span>
+    
+</label>Размещение счетчиков аналитики</td>
+          <td>1 шт</td>
+          <td>25 бонусов</td>
+        </tr>
+        <tr>
+          <td><label class="chebox-custom">
+    <input class="checkbox" type="checkbox" name="checkbox-test">
+    <span class="checkbox-custom"  v-bind:class="{chk-bord-off: bord-off}"></span>
+    
+</label>Дизайн письма для email рассылки</td>
+          <td>1 письмо</td>
+          <td>5 бонусов</td>
+        </tr>
+        <tr>
+          <td><label class="chebox-custom">
+    <input class="checkbox" type="checkbox" name="checkbox-test">
+    <span class="checkbox-custom"  v-bind:class="{chk-bord-off: bord-off}"></span>
+    
+</label>Дизайн баннера для рекламы в Инстаграмм</td>
+          <td>1 шт</td>
+          <td>20 бонусов</td>
+        </tr>
+        <tr>
+          <td><label class="chebox-custom">
+    <input class="checkbox" type="checkbox" name="checkbox-test">
+    <span class="checkbox-custom"  v-bind:class="{chk-bord-off: bord-off}"></span>
+</label>Создание лендинга под рекламную кампанию</td>
+          <td>1 шт</td>
+          <td>30 бонусов</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="tab-pane" id="packet">
+<table class="table tbl-packet">
+      
+      <tbody>
+        <tr>
+          <td><label class="chebox-custom">
+    <input class="checkbox" type="checkbox" name="checkbox-test">
+    <span class="checkbox-custom"  ></span>
+</label><span class="tbl-packet-bold">Пакет Дизель</span></td>
+          <td></td>
+          <td><span class="tbl-packet-bold">3 000 ₽</span></td>
+        </tr>
+        <tr>
+          <td><label class="chebox-custom">
+    <input class="checkbox" type="checkbox" name="checkbox-test">
+    <span class="checkbox-custom"  ></span>
+</label><span class="tbl-packet-bold">Пакет АИ-92</span></td>
+          <td>2 сети</td>
+          <td><span class="tbl-packet-bold">14 800 ₽</span></td>
+        </tr>
+        <tr>
+          <td class="tbl-packet-padding">Аудит сайта</td>
+          <td>1 отчёт</td>
+          <td><span class="tbl-packet-bold2">1000 р.</span></td>
+        </tr>
+        <tr>
+          <td class="tbl-packet-padding">Статьи для наполнения сайта</td>
+          <td>10 статей</td>
+          <td><span class="tbl-packet-bold2">4 800 р.</span></td>
+        </tr>
+        <tr>
+          <td class="tbl-packet-padding">Внутренняя SEO оптимизация сайта</td>
+          <td>1 сессия</td>
+          <td><span class="tbl-packet-bold2">2 000 р.</span></td>
+        </tr>
+        <tr>
+          <td class="tbl-packet-padding">Контекстная реклама</td>
+          <td>3 кампании</td>
+          <td><span class="tbl-packet-bold2">7 000 р.</span></td>
+        </tr>
+        <tr>
+          <td><label class="chebox-custom">
+    <input class="checkbox" type="checkbox" name="checkbox-test">
+    <span class="checkbox-custom" ></span>
+    
+</label><span class="tbl-packet-bold">Пакет АИ-92</span></td>
+          <td>1 сессия</td>
+          <td><span class="tbl-packet-bold">16 500 ₽</span></td>
+        </tr>
+        
+        
+      </tbody>
+    </table>
+  </div>
+</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-green">ПОДКЛЮЧИТЬ</button>
+      </div>
+    </div>
+  </div>
+
+  </div>
+                      <div class="servises-packed-80">
+                        <div class="row servises-packed-80-title">
+                          <div class="col-xs-7">
+                            <p >Пакет АИ-80</p>
+                          </div>
+                          <div class="col-xs-3"></div>
+                          <div class="col-xs-2"><p ><span>10 500</span> ₽</p></div>
+                        </div>
+                         <div class="row">
+                          <div class="col-xs-7">
+                            <p class="servises-packed-80-bold">Аудит сайта</p>
+                            <p class="servises-packed-80-small">Услуга предоставлена <img src="img/ico-status-completed.png" alt=""></p>
+                            <p class="servises-packed-80-small">Бонусы начислены — 30</p>
+                          </div>
+                          <div class="col-xs-3"><p class="servises-packed-80-regular">1 отчёт</p></div>
+                          <div class="col-xs-2"><p class="servises-packed-80-bold">1000 р.</div>
+                        </div>
+                        <div class="row">
+                          <div class="col-xs-7">
+                            <p class="servises-packed-80-bold">Статьи для наполнения сайта</p>
+                            <p class="servises-packed-80-small">Услуга предоставлена <img src="img/ico-status-completed.png" alt=""></p>
+                            <p class="servises-packed-80-small">Бонусы начислены — 30</p>
+                          </div>
+                          <div class="col-xs-3"><p class="servises-packed-80-regular">5 статей</p></div>
+                          <div class="col-xs-2"><p class="servises-packed-80-bold">2 500 р.</p></div>
+                        </div>
+                        <div class="row">
+                          <div class="col-xs-7">
+                            <p class="servises-packed-80-bold">Внутренняя SEO оптимизация сайта</p>
+                            <p class="servises-packed-80-small">Услуга в работе <img src="img/ico-status-in-work.png" alt=""></p>
+                            <p class="servises-packed-80-small">Бонусы к начислению — 20</p>
+                          </div>
+                          <div class="col-xs-3"><p class="servises-packed-80-regular">1 сессия</p></div>
+                          <div class="col-xs-2"><p class="servises-packed-80-bold">2 000 р.</p></div>
+                        </div>
+                        <div class="row">
+                          <div class="col-xs-7">
+                            <p class="servises-packed-80-bold">Контекстная реклама</p>
+                            <p class="servises-packed-80-small">Услуга предоставлена  <img src="img/ico-status-completed.png" alt=""></p>
+                            <p class="servises-packed-80-small">Бонусы начислены — 15</p>
+                          </div>
+                          <div class="col-xs-3"><p class="servises-packed-80-regular">2 кампании</p></div>
+                          <div class="col-xs-2"><p class="servises-packed-80-bold">2 500 р.</p></div>
+                        </div>
+                        <div class="servises-connect"><a href="#" >Подключить другой пакет</a></div>
+                        
+                        <div class="row servises-packed-80-items">
+                          <div class="col-xs-7">
+                            <p >Установка и настройка счетчиков трафика на сайте</p>
+                            <p class="servises-packed-80-small">Услуга в работе <img src="img/ico-status-in-work.png" alt=""></p>
+                            <p class="servises-packed-80-small">Бонусы к начислению — 25</p>
+                          </div>
+                          
+                          <div class="col-xs-5"><p ><span>2 500</span> ₽</p></div>
+                        </div>
+                        <div class="servises-packed-80-end">
+                          <p>Завершённые</p>
+                        </div>
+  <div class="servises-packed-80-items-end">
+        <div class="row servises-packed-80-items">
+                          <div class="col-xs-7">
+                            <p >Анализ конкурентов</p>
+                            <p class="servises-packed-80-small">Завершено <img src="img/ico-status-completed.png" alt=""></p>
+                            <p class="servises-packed-80-small">Начислено бонусов — 20</p>
+                          </div>
+                          
+                          <div class="col-xs-5"><p ><span>3 600</span> ₽</p></div>
+                        </div>
+                        <div class="row servises-packed-80-items">
+                          <div class="col-xs-7">
+                            <p >Подбор шаблона для сайта на конструкторе</p>
+                            <p class="servises-packed-80-small">Завершено <img src="img/ico-status-completed.png" alt=""></p>
+                            <p class="servises-packed-80-small">Начислено бонусов — 25</p>
+                          </div>
+                          
+                          <div class="col-xs-5"><p ><span>2 800</span> ₽</p></div>
+                        </div>
+  </div>
+
+  
+                      </div>
+                    </div>
+
+                    </div>
+                    </div>
+                    </div>
+                </div>
+                    
+                    </section>
+
+
+
+    <footer>
+       <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <a href="" class="cybertrassa">Cybertrassa</a>
+                    <p class="copy">&copy; 2017 All rights reserved</p>
+                    <p class="social">
+                        <a href=""><img src="img/facebook.svg" alt=""></a>
+                        <a href=""><img src="img/twitter.svg" alt=""></a>
+                        <a href=""><img src="img/instagram.svg" alt=""></a>
+                    </p>
+                </div>
+                <div class="col-sm-3">
+                    <ul class="nav nav-stacked">
+                        <li><a href="">Компания</a></li>
+                        <li><a href="">Каталог сервисов </a></li>
+                        <li><a href="">Услуги</a></li>
+                        <li><a href="">Обратная связь</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <ul class="nav nav-stacked">
+                        <li><a href="">Terms of Use</a></li>
+                        <li><a href="">Privacy Policy </a></li>
+                        <li><a href="">Site map</a></li>
+                        <li><a href="">Support</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <p class="youtube"><a href=""><img src="img/youtube.svg" alt=""> Наш канал на YouTube</a></p>
+                    <a href="" class="btn inverted-yellow">Подписаться</a>
+                </div>
+            </div>    
+       </div>
+        
+    </footer>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jasny-bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/vue.js"></script>
+    <script src="js/vue-main.js"></script>
+    <script src="js/jquery.filer.js"></script>
+    
+</body>
+</html>

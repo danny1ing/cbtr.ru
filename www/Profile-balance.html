@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cybertrassa</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="fonts/ttnorms/ttnorms.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/jasny-bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/filer">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]><script src="assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="http://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="http://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+</head>
+<body>
+<div class="navmenu navmenu-default navmenu-fixed-left offcanvas" id="offcanvas">
+      <a href="#" class="close-offcanvas">
+          <img src="img/close-menu.png"
+             srcset="img/close-menu@2x.png 2x,
+                     img/close-menu@3x.png 3x">
+      </a>
+      <ul class="nav navmenu-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Главная</a>
+              <ul class="dropdown-menu navmenu-nav">
+                <li><a href="#">Сайт</a></li>
+                <li><a href="#">Продвижение</a></li>
+                <li><a href="#">Воронка продаж</a></li>
+                <li><a href="#">Масштабирование</a></li>
+                <li><a href="#">Игра</a></li>
+              </ul>
+            </li>
+          <li><a href="#">Услуги</a></li>
+          <li><a href="#">База знаний</a></li>
+          <li><a href="#">Онлайн-обучение</a></li>
+          <li><a href="#">Каталог сервисов</a></li>
+      </ul>
+    </div>
+    <header class="white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-2">
+                    <a href="/" class="cybertrassa">Cybertrassa</a>
+                </div>
+                <div class="col-lg-8 col-lg-offset-1 col-md-10 hidden-sm hidden-xs">
+                    <ul class="nav nav-pills">
+                      <li><a href="#">О нас</a></li>
+                      <li><a href="#">Услуги</a></li>
+                      <li class="active"><a href="#">База знаний</a></li>
+                      <li><a href="#">Онлайн-обучение</a></li>
+                      <li><a href="#">Каталог сервисов</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <a href="javascript:void(0);" class="hamburger" data-toggle="offcanvas" data-recalc="false" data-target=".navmenu" data-canvas="body">
+            <img src="img/hamburger.png"
+             srcset="img/hamburger@2x.png 2x,
+                     img/hamburger@3x.png 3x">
+        </a>
+        <div class="search">
+            <a href="">
+                <img src="img/search.png"
+                 srcset="img/search@2x.png 2x,
+                     img/search@3x.png 3x">
+            </a>
+            <a href="">
+                <img src="img/user-black.png"
+                 srcset="img/user-black@2x.png 2x,
+                     img/user-black@3x.png 3x">
+            </a>
+        </div>
+    </header>
+    
+<section class="white text article">
+        <div class="container">
+            <div class="base-article just-article">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 hidden-xs hidden-sm">
+                        <div class="base-left-col">
+                            <div class="profile-icon">
+                                <div class="profile-icon-item"><img src="img/ico-petroleum-80.png" alt=""></div>
+                                <div class="profile-icon-item"><p class="my_packet">МОЙ ПАКЕТ <br>УСЛУГ:</p>   
+                                    <div class="prifile-icon-item-ai">АИ-80</div>
+                                </div>
+                            </div>
+                            <div class="profile-nav base-left-col-nav">
+                                <ul class="nav nav-pills nav-stacked">
+                                    <li class="active"><a href="#">Настройки</a></li>
+                                    <li><a href="#">Услуги в работе (<span>2</span>)</a></li>
+                                    <li><a href="#">Бонусы</a></li>
+                                    <li><a href="#">Баланс</a></li>
+                                    <li><a href="#">Прогресс-бар</a></li>
+                                    <li><a href="#">Блокнот</a></li>
+                                    <li><a href="#">Помощь</a></li>
+                                </ul>
+                            </div>
+                              
+                        </div>    
+                    </div>
+                    <div class="col-lg-offset-1 col-lg-8 col-md-9">
+                  <div class="profile-balance">
+                    <div class="profile-balance-my-balance">
+                      <p><span>3 700.45</span> ₽</p>
+                    </div>
+                    <div class="profile-balance-expenses">
+                      <div class="profile-balance-expenses-top">
+                      <div class="row profile-balance-expenses-top-bold">
+                        <div class="col-xs-8">
+                          <p><a  @click="profile_expenses = !profile_expenses">Расходы в этом месяце</a></p>
+                        </div>
+                        <div class="col-xs-4"><span>13 000 </span>₽</div>
+                      </div>
+                      <div class="profile-balance-expenses-dropdown" v-if="profile_expenses">
+
+                        <div class="row">
+                          <div class="col-xs-8">
+                          <p>Аудит сайта</p>
+                          <p class="profile-balance-expenses-dropdown-data">10.09.2017</p>
+                        </div>
+                        <div class="col-xs-4"><span>1 000 </span>р.
+                        </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-xs-8">
+                          <p>Статьи для наполнения сайта</p>
+                          <p class="profile-balance-expenses-dropdown-data">08.09.2017</p>
+                        </div>
+                        <div class="col-xs-4"><span>2 500 </span>р.
+                        </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-xs-8">
+                          <p>Внутренняя SEO оптимизация сайта</p>
+                          <p class="profile-balance-expenses-dropdown-data">08.09.2017</p>
+                        </div>
+                        <div class="col-xs-4"><span>2 000 </span>р.
+                        </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-xs-8">
+                          <p>Контекстная реклама</p>
+                          <p class="profile-balance-expenses-dropdown-data">02.09.2017</p>
+                        </div>
+                        <div class="col-xs-4"><span>2 500 </span>р.
+                        </div>
+                        </div>
+
+
+                      </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-xs-8">
+                          <p>Бонусные баллы</p>
+                        </div>
+                        <div class="col-xs-4"><span>500</span></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-xs-8">
+                          <p>Доход в месяц</p>
+                        </div>
+                        <div class="col-xs-4"><span>2 500 </span>р.</div>
+                      </div>
+                      <div class="row">
+                        <div class="col-xs-8">
+                          <p class="profile-balance-expenses-history"><a @click="profile_history = !profile_history">История операций</a></p>
+                        </div>
+                        <div class="col-xs-4"></div>
+                      </div>
+                       <div class="profile-balance-expenses-dropdown" v-if="profile_history">
+                          <div class="profile-balance-expenses-dropdown-filter">
+                            <div class="row">
+                            <div class="col-md-6"><span>В период: с</span>
+                            <input type="date" class="date-profile">
+                            </div>
+                            <div class="col-md-6"><span class="profile-balance-expenses-dropdown-filter-span">по</span>
+                            <input type="date" class="date-profile">
+                          </div>
+                          </div>
+                          </div>
+                          <div class="profile-balance-expenses-dropdown-filter-checkbox">
+                            <label class="chebox-custom">
+    <input class="checkbox" type="checkbox" name="checkbox-test">
+    <span class="checkbox-custom"  ></span>
+    <span class="label">День</span>
+</label>
+<label class="chebox-custom">
+    <input class="checkbox" type="checkbox" name="checkbox-test">
+    <span class="checkbox-custom"  ></span>
+    <span class="label">Неделя</span>
+</label>
+<label class="chebox-custom">
+    <input class="checkbox" type="checkbox" name="checkbox-test">
+    <span class="checkbox-custom"  ></span>
+    <span class="label">Месяц</span>
+</label>
+<label class="chebox-custom">
+    <input class="checkbox" type="checkbox" name="checkbox-test">
+    <span class="checkbox-custom"  ></span>
+    <span class="label">Год</span>
+</label>
+                          </div>
+                        <div class="row">
+                          <div class="col-xs-8">
+                          <p>Аудит сайта</p>
+                          <p class="profile-balance-expenses-dropdown-data">10.09.2017</p>
+                        </div>
+                        <div class="col-xs-4"><span>1 000 </span>р.
+                        </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-xs-8">
+                          <p>Статьи для наполнения сайта</p>
+                          <p class="profile-balance-expenses-dropdown-data">08.09.2017</p>
+                        </div>
+                        <div class="col-xs-4"><span>2 500 </span>р.
+                        </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-xs-8">
+                          <p>Внутренняя SEO оптимизация сайта</p>
+                          <p class="profile-balance-expenses-dropdown-data">08.09.2017</p>
+                        </div>
+                        <div class="col-xs-4"><span>2 000 </span>р.
+                        </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-xs-8">
+                          <p>Контекстная реклама</p>
+                          <p class="profile-balance-expenses-dropdown-data">02.09.2017</p>
+                        </div>
+                        <div class="col-xs-4"><span>2 500 </span>р.
+                        </div>
+                        </div>
+
+
+                      </div>
+
+                    </div>
+                    <form class="profile-balance-expenses-replenish">
+                      <span>Пополнить баланс:</span>
+                      <label>
+    <input class="radio" type="radio" name="radio-test">
+    <span class="radio-custom"></span>
+    <span class="label">На неделю</span>
+</label>
+<label>
+    <input class="radio" type="radio" name="radio-test">
+    <span class="radio-custom"></span>
+    <span class="label">На месяц</span>
+</label>
+<button class="cybertrassa-green-but">пополнить</button>
+                    </form>
+                    
+                  </div>
+                    
+                    </section>
+
+
+
+    <footer>
+       <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <a href="" class="cybertrassa">Cybertrassa</a>
+                    <p class="copy">&copy; 2017 All rights reserved</p>
+                    <p class="social">
+                        <a href=""><img src="img/facebook.svg" alt=""></a>
+                        <a href=""><img src="img/twitter.svg" alt=""></a>
+                        <a href=""><img src="img/instagram.svg" alt=""></a>
+                    </p>
+                </div>
+                <div class="col-sm-3">
+                    <ul class="nav nav-stacked">
+                        <li><a href="">Компания</a></li>
+                        <li><a href="">Каталог сервисов </a></li>
+                        <li><a href="">Услуги</a></li>
+                        <li><a href="">Обратная связь</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <ul class="nav nav-stacked">
+                        <li><a href="">Terms of Use</a></li>
+                        <li><a href="">Privacy Policy </a></li>
+                        <li><a href="">Site map</a></li>
+                        <li><a href="">Support</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <p class="youtube"><a href=""><img src="img/youtube.svg" alt=""> Наш канал на YouTube</a></p>
+                    <a href="" class="btn inverted-yellow">Подписаться</a>
+                </div>
+            </div>    
+       </div>
+        
+    </footer>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jasny-bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/vue.js"></script>
+    <script src="js/vue-main.js"></script>
+
+    
+</body>
+</html>

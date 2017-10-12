@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="472" height="487" viewBox="0 0 472 487">
+    <defs>
+        <path id="a" d="M304 94h26.22l-5.018 9.073 4.962 8.927H304z"/>
+        <circle id="b" cx="13" cy="13" r="12.021"/>
+        <circle id="c" cx="10" cy="10" r="10"/>
+        <circle id="d" cx="10" cy="10" r="10"/>
+        <circle id="e" cx="10" cy="10" r="10"/>
+        <circle id="f" cx="10" cy="10" r="10"/>
+        <circle id="g" cx="10" cy="10" r="10"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFFFFE" d="M238.27 36.057c.62-1.8.974-3.726.974-5.735 0-9.748-7.904-17.648-17.65-17.648-5.508 0-10.427 2.527-13.66 6.482a17.57 17.57 0 0 0-5.56-2.758C201.73 7.238 194.116 0 184.79 0c-8.734 0-15.967 6.354-17.38 14.688a17.246 17.246 0 0 0-2.53-.203c-9.746 0-17.643 7.899-17.643 17.646 0 1 .102 1.97.262 2.927h-.638c-6.002 0-10.862 4.863-10.862 10.86v2.414c0 5.999 4.86 10.86 10.862 10.86h86.875c5.997 0 10.86-4.861 10.86-10.86v-2.414c0-4.378-2.595-8.14-6.327-9.86"/>
+        <path fill="#FFF" d="M272 47h15v84h-15z"/>
+        <g fill="#202020">
+            <path d="M195 43h18v4h-18zM195 51h18v4h-18zM195 59h18v4h-18zM195 67h18v4h-18zM195 79h4v4h-4zM202 79h4v4h-4zM195 87h4v4h-4zM202 87h4v4h-4zM195 95h4v4h-4zM202 95h4v4h-4zM195 103h4v4h-4zM202 103h4v4h-4zM195 111h4v4h-4zM202 111h4v4h-4zM195 119h4v4h-4zM202 119h4v4h-4z"/>
+            <path d="M222 79V33h-36v100h24v-4h-20V37.026h28V79h4zM263 53h18v4h-18zM270 13h4v13.822h-4z"/>
+            <path d="M263 25h18v4h-18z"/>
+            <path d="M263 25h4v10h-4zM277 25h4v10h-4z"/>
+            <path d="M283.55 33H258v10h4v-6h20v6h4V33h-2.45zM263 61h18v4h-18zM263 69h18v4h-18zM263 77h18v4h-18zM263 85h18v4h-18zM263 93h18v4h-18zM263 101h18v4h-18zM263 109h18v4h-18z"/>
+            <path d="M254 43h36v90h-36V43zm4 4.026V129h28V47.026h-28z"/>
+            <path d="M279 129v-5a7 7 0 0 0-14 0v5h4v-4.985a3.015 3.015 0 0 1 6.03 0V129H279zM223 98h4v6h-4zM230 98h4v6h-4zM237 98h4v6h-4zM223 108h4v6h-4zM230 108h4v6h-4zM237 108h4v6h-4zM223 118h4v6h-4zM230 118h4v6h-4zM237 118h4v6h-4zM218 89h29v4h-29z"/>
+            <path d="M214 83h36v50h-36V83zm4 4.021v42h28v-42h-28z"/>
+        </g>
+        <path stroke="#202020" stroke-width="4" d="M306 125.173V97.926"/>
+        <g>
+            <use fill="#F15227" xlink:href="#a"/>
+            <path stroke="#202020" stroke-width="4" d="M306 96v14h20.764l-3.849-6.925L326.828 96H306z"/>
+        </g>
+        <path stroke="#202020" stroke-linecap="round" stroke-linejoin="round" stroke-width="6" d="M306 473.898H85.859C35.282 475.543 9.995 457.232 10 418.968c.005-38.266 25.295-57.921 75.872-58.968h36.97M274.29 245.898h-81.198c-50.733 1.645-76.097-16.666-76.092-54.93.005-38.266 25.373-57.921 76.106-58.968H305M123 359.898h263.136c50.58 1.645 75.869-16.666 75.864-54.93-.005-38.266-25.297-57.921-75.877-58.968H274.564"/>
+        <path stroke="#FC3" stroke-dasharray="6,11" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M306 473.898H85.859C35.282 475.543 9.995 457.232 10 418.968c.005-38.266 25.295-57.921 75.872-58.968h36.97M274.29 245.898h-81.198c-50.733 1.645-76.097-16.666-76.092-54.93.005-38.266 25.373-57.921 76.106-58.968H305M123 359.898h263.136c50.58 1.645 75.869-16.666 75.864-54.93-.005-38.266-25.297-57.921-75.877-58.968H274.564"/>
+        <g transform="translate(105 176)">
+            <use fill="#FFF" xlink:href="#b"/>
+            <circle cx="13" cy="13" r="10.021" stroke="#202020" stroke-width="4"/>
+            <circle cx="13" cy="13" r="3" fill="#202020"/>
+        </g>
+        <g transform="translate(452 297)">
+            <use fill="#FFF" xlink:href="#c"/>
+            <circle cx="10" cy="10" r="8" stroke="#202020" stroke-width="4"/>
+            <circle cx="10" cy="10" r="3" fill="#202020"/>
+        </g>
+        <g transform="translate(296 122)">
+            <use fill="#FFF" xlink:href="#d"/>
+            <circle cx="10" cy="10" r="8" stroke="#202020" stroke-width="4"/>
+            <circle cx="10" cy="10" r="3" fill="#202020"/>
+        </g>
+        <g transform="translate(235 350)">
+            <use fill="#FFF" xlink:href="#e"/>
+            <circle cx="10" cy="10" r="8" stroke="#202020" stroke-width="4"/>
+            <circle cx="10" cy="10" r="3" fill="#202020"/>
+        </g>
+        <g transform="translate(296 464)">
+            <use fill="#FFF" xlink:href="#f"/>
+            <circle cx="10" cy="10" r="8" stroke="#202020" stroke-width="4"/>
+            <circle cx="10" cy="10" r="3" fill="#202020"/>
+        </g>
+        <g transform="translate(0 409)">
+            <use fill="#FFF" xlink:href="#g"/>
+            <circle cx="10" cy="10" r="8" stroke="#202020" stroke-width="4"/>
+            <circle cx="10" cy="10" r="3" fill="#202020"/>
+        </g>
+        <g transform="translate(100 340)">
+            <circle cx="122.456" cy="76.456" r="26.456" fill="#FFF"/>
+            <circle cx="86.5" cy="46.5" r="45.5" fill="#00BD4D"/>
+            <g stroke="#202020" stroke-width="4">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M87 24v106.617M110.384 53.257L87.31 76.331M72.616 34.257l14.067 14.067"/>
+                <circle cx="86.5" cy="46.5" r="44.5"/>
+                <path stroke-linecap="round" stroke-linejoin="round" d="M126 82.954v49.244M137.958 87.522L126.15 99.33"/>
+                <path d="M98.798 99.026c9.496 14.338 28.695 18.782 43.582 9.837a32.32 32.32 0 0 0 15.549-30.64 32.183 32.183 0 0 0-4.491-13.712 32.16 32.16 0 0 0-13.737-12.505l-40.903 47.02z"/>
+                <path stroke-linecap="round" stroke-linejoin="round" d="M47 82.954v48.071M35.042 87.522L46.85 99.33"/>
+                <path d="M74.202 99.026c-9.496 14.338-28.695 18.782-43.582 9.837a32.32 32.32 0 0 1-15.549-30.64 32.183 32.183 0 0 1 4.491-13.712 32.16 32.16 0 0 1 13.737-12.505l40.903 47.02z"/>
+            </g>
+        </g>
+        <g stroke="#202020" stroke-width="4" transform="translate(57 312)">
+            <circle cx="11" cy="9" r="7"/>
+            <circle cx="11" cy="28" r="9"/>
+            <path d="M11 38v11.577"/>
+        </g>
+        <g stroke="#202020" stroke-width="4" transform="translate(236 195)">
+            <circle cx="11" cy="9" r="7"/>
+            <circle cx="11" cy="28" r="9"/>
+            <path d="M11 38v11.577"/>
+        </g>
+        <g stroke="#202020" stroke-width="4" transform="translate(215 195)">
+            <circle cx="11" cy="9" r="7"/>
+            <circle cx="11" cy="28" r="9"/>
+            <path d="M11 38v11.577"/>
+        </g>
+        <g transform="matrix(-1 0 0 1 341.93 210.229)">
+            <rect width="55.553" height="10.281" x="1.157" y="16.203" fill="#FFF" rx="5.141"/>
+            <path fill="#202020" fill-rule="nonzero" d="M51.225 10.858h-5.618L36.005.582a1.826 1.826 0 1 0-2.672 2.49l7.265 7.773h-22.55V8.626c0-1.012-.817-1.83-1.83-1.83-1.011 0-1.829.818-1.829 1.83v2.219H6.565C2.945 10.858 0 13.79 0 17.41v10.12c0 1.013.817 1.83 1.83 1.83h3.632c.805 3.023 3.569 5.255 6.838 5.255 3.27 0 6.02-2.232 6.838-5.255H46.8c.805 3.023 3.569 5.255 6.838 5.255 3.27 0 6.02-2.232 6.838-5.255h3.633c1.012 0 1.83-.817 1.83-1.83v-6.318c-.027-6.319-9.667-10.354-14.714-10.354zM12.3 30.956a3.43 3.43 0 0 1-3.425-3.425 3.43 3.43 0 0 1 3.425-3.426 3.422 3.422 0 0 1 3.426 3.426c-.013 1.894-1.544 3.425-3.426 3.425zm41.325 0a3.43 3.43 0 0 1-3.425-3.425 3.43 3.43 0 0 1 3.425-3.426 3.43 3.43 0 0 1 3.426 3.426c-.013 1.894-1.544 3.425-3.426 3.425zm8.629-5.255H60.45c-.804-3.023-3.568-5.255-6.838-5.255s-6.02 2.232-6.837 5.255h-27.65c-.804-3.023-3.568-5.255-6.838-5.255s-6.02 2.232-6.838 5.255H3.66v-8.29a2.896 2.896 0 0 1 2.893-2.894h44.66c4.36 0 11.029 3.594 11.029 6.695v4.49h.013z"/>
+        </g>
+        <g stroke="#202020" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+            <path d="M350 228h28.286M350 236h16.16"/>
+        </g>
+        <text fill="#202020" font-family="TTNorms-Regular, TT Norms" font-size="12">
+            <tspan x="137" y="182">Привлечь </tspan> <tspan x="137" y="196">больше </tspan> <tspan x="137" y="210">клиентов</tspan>
+        </text>
+        <text fill="#202020" font-family="TTNorms-Regular, TT Norms" font-size="12">
+            <tspan x="389.724" y="303.42">Работать </tspan> <tspan x="353.664" y="317.42">с покупателями</tspan>
+        </text>
+        <text fill="#202020" font-family="TTNorms-Regular, TT Norms" font-size="12">
+            <tspan x="253" y="319">Привлечь </tspan> <tspan x="253" y="333">первых </tspan> <tspan x="253" y="347">клиентов</tspan>
+        </text>
+        <text fill="#202020" font-family="TTNorms-Regular, TT Norms" font-size="12">
+            <tspan x="325" y="138">Получать</tspan> <tspan x="325" y="152">актуальные</tspan> <tspan x="325" y="166">советы</tspan>
+        </text>
+        <text fill="#202020" font-family="TTNorms-Regular, TT Norms" font-size="12">
+            <tspan x="324" y="473">Создать</tspan> <tspan x="324" y="487">сайт</tspan>
+        </text>
+        <text fill="#202020" font-family="TTNorms-Regular, TT Norms" font-size="12">
+            <tspan x="27" y="412">Сделать</tspan> <tspan x="27" y="425">сайт </tspan> <tspan x="27" y="438">видимым</tspan>
+        </text>
+    </g>
+</svg>

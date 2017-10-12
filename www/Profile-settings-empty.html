@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cybertrassa</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="fonts/ttnorms/ttnorms.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/jasny-bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/filer">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+    <link href="css/dropzone.css" rel="stylesheet">
+    <link href="css/basic.css" rel="stylesheet">
+    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]><script src="assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="http://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="http://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+</head>
+<body>
+<div class="navmenu navmenu-default navmenu-fixed-left offcanvas" id="offcanvas">
+      <a href="#" class="close-offcanvas">
+          <img src="img/close-menu.png"
+             srcset="img/close-menu@2x.png 2x,
+                     img/close-menu@3x.png 3x">
+      </a>
+      <ul class="nav navmenu-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Главная</a>
+              <ul class="dropdown-menu navmenu-nav">
+                <li><a href="#">Сайт</a></li>
+                <li><a href="#">Продвижение</a></li>
+                <li><a href="#">Воронка продаж</a></li>
+                <li><a href="#">Масштабирование</a></li>
+                <li><a href="#">Игра</a></li>
+              </ul>
+            </li>
+          <li><a href="#">Услуги</a></li>
+          <li><a href="#">База знаний</a></li>
+          <li><a href="#">Онлайн-обучение</a></li>
+          <li><a href="#">Каталог сервисов</a></li>
+      </ul>
+    </div>
+    <header class="white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-2">
+                    <a href="/" class="cybertrassa">Cybertrassa</a>
+                </div>
+                <div class="col-lg-8 col-lg-offset-1 col-md-10 hidden-sm hidden-xs">
+                    <ul class="nav nav-pills">
+                      <li><a href="#">О нас</a></li>
+                      <li><a href="#">Услуги</a></li>
+                      <li class="active"><a href="#">База знаний</a></li>
+                      <li><a href="#">Онлайн-обучение</a></li>
+                      <li><a href="#">Каталог сервисов</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <a href="javascript:void(0);" class="hamburger" data-toggle="offcanvas" data-recalc="false" data-target=".navmenu" data-canvas="body">
+            <img src="img/hamburger.png"
+             srcset="img/hamburger@2x.png 2x,
+                     img/hamburger@3x.png 3x">
+        </a>
+        <div class="search">
+            <a href="">
+                <img src="img/search.png"
+                 srcset="img/search@2x.png 2x,
+                     img/search@3x.png 3x">
+            </a>
+            <a href="">
+                <img src="img/user-black.png"
+                 srcset="img/user-black@2x.png 2x,
+                     img/user-black@3x.png 3x">
+            </a>
+        </div>
+    </header>
+    
+<section class="white text article">
+        <div class="container">
+            <div class="base-article just-article">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 hidden-xs hidden-sm">
+                        <div class="base-left-col">
+                            <div class="profile-icon">
+                                <div class="profile-icon-item"><img src="img/ico-petroleum-profile-empty.png" alt=""></div>
+                                <div class="profile-icon-item"><p>ПОДКЛЮЧИТЬ <br>УСЛУГИ</p></div>
+                            </div>
+                            <div class="profile-nav base-left-col-nav">
+                                <ul class="nav nav-pills nav-stacked">
+                                    <li class="active"><a href="#">Настройки</a></li>
+                                    <li><a href="#">Услуги в работе (<span>2</span>)</a></li>
+                                    <li><a href="#">Бонусы</a></li>
+                                    <li><a href="#">Баланс</a></li>
+                                    <li><a href="#">Прогресс-бар</a></li>
+                                    <li><a href="#">Блокнот</a></li>
+                                    <li><a href="#">Помощь</a></li>
+                                </ul>
+                            </div>
+                              
+                        </div>    
+                    </div>
+                    <div class="col-lg-offset-1 col-lg-8 col-md-9">
+                    <form action="" class="profile-form " name="userpic">
+                    <div class="row">
+                        <div class="col-md-3 col-md-push-9">
+                            
+                            <div class="profile-file">
+                                
+                                <div id="preview" class="upload__preview"><canvas width="112" height="112"></canvas></div>
+
+
+        <div class="upload__link">
+            <a class="upload-link js-fileapi-wrapper"> 
+                <input class="upload-link__inp" name="photo" id="file" type="file" accept=".jpg,.jpeg,.gif">
+                
+                <label for="file" class="lable-file">
+                                    <div class="profile-crest1"></div>
+                                    <div class="profile-crest2"></div>
+                                <p>Добавить фото</p>
+                            </label>
+            </a> 
+        </div>
+                                
+                            </div>
+
+                        </div>
+                        <div class="col-md-9 col-md-pull-3">
+                    <div class="row">
+                    <div class="col-md-3"><label class="label-profile" for="">Моё имя</label></div>
+                    <div class="col-md-9"><input class="input-profile" type="text"></div>
+                    </div>
+                    <div class="row">
+                    <div class="col-md-3"><label class="label-profile" for="">Никнейм</label></div>
+                    <div class="col-md-9"><input class="input-profile" type="text"></div>
+                    </div>
+                    <div class="row">
+                    <div class="col-md-3"><label for="">Дата рождения</label></div>
+                    <div class="col-md-9">
+                        <div class="col-md-3 profile-item">
+                        <select name="" id="" class="select-profile data-dmy">
+                            <option value="">День</option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                            <option value="">6</option>
+                            <option value="">7</option>
+                            <option value="">8</option>
+                            <option value="">9</option>
+                            <option value="">10</option>
+                            <option value="">11</option>
+                            <option value="">12</option>
+                            <option value="">13</option>
+                            <option value="">14</option>
+                            <option value="">15</option>
+                            <option value="">16</option>
+                            <option value="">17</option>
+                            <option value="">18</option>
+                            <option value="">19</option>
+                            <option value="">20</option>
+                            <option value="">21</option>
+                            <option value="">22</option>
+                            <option value="">23</option>
+                            <option value="">24</option>
+                            <option value="">25</option>
+                            <option value="">26</option>
+                            <option value="">27</option>
+                            <option value="">28</option>
+                            <option value="">29</option>
+                            <option value="">30</option>
+                            <option value="">31</option>
+                        </select>
+                        </div>
+                        <div class="col-md-5 profile-item">
+                        <select name="" id="" class="select-profile data-dmy">
+                            <option value="">Месяц</option>
+                            <option value="">Январь</option>
+                            <option value="">Февраль</option>
+                            <option value="">Март</option>
+                            <option value="">Апрель</option>
+                            <option value="">Май</option>
+                            <option value="">Июнь</option>
+                            <option value="">Июль</option>
+                            <option value="">Август</option>
+                            <option value="">Сентябрь</option>
+                            <option value="">Октябрь</option>
+                            <option value="">Ноябрь</option>
+                            <option value="">Декабрь</option>
+                        </select>
+                        </div>
+                        <div class="col-md-4 profile-item">
+                        <select name="" id="" class="select-profile data-dmy">
+                            <option value="">2004</option>
+                            <option value="">2003</option>
+                            <option value="">2002</option>
+                            <option value="">2001</option>
+                            <option value="">2000</option>
+                            <option value="">1998</option>
+                            <option value="">1997</option>
+                            <option value="">1996</option>
+                            <option value="">1995</option>
+                            <option value="">1994</option>
+                            <option value="">1993</option>
+                            <option value="">1992</option>
+                            <option value="">1991</option>
+                            <option value="">1990</option>
+                            <option value="">1989</option>
+                            <option value="">1988</option>
+                            <option value="">1987</option>
+                            <option value="">1986</option>
+                            <option value="">1985</option>
+                            <option value="">1984</option>
+                            <option value="">1983</option>
+                            <option value="">1982</option>
+                            <option value="">1981</option>
+                            <option value="">1980</option>
+                            <option value="">1979</option>
+                            <option value="">1978</option>
+                            <option value="">1977</option>
+                            <option value="">28</option>
+                            <option value="">29</option>
+                            <option value="">30</option>
+                            <option value="">31</option>
+                        </select>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-md-3"><label class="label-profile" for="">Язык</label></div>
+                    <div class="col-md-9">
+                        <select name="" id="" class="select-profile">
+                            <option value="">По умолчанию</option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                            <option value="">6</option>
+                            <option value="">7</option>
+                            <option value="">8</option>
+                            <option value="">9</option>
+                            <option value="">10</option>
+                            <option value="">11</option>
+                            <option value="">12</option>
+                            <option value="">13</option>
+                            <option value="">14</option>
+                            <option value="">15</option>
+                            <option value="">16</option>
+                            <option value="">17</option>
+                            <option value="">18</option>
+                            <option value="">19</option>
+                            <option value="">20</option>
+                            <option value="">21</option>
+                            <option value="">22</option>
+                            <option value="">23</option>
+                            <option value="">24</option>
+                            <option value="">25</option>
+                            <option value="">26</option>
+                            <option value="">27</option>
+                            <option value="">28</option>
+                            <option value="">29</option>
+                            <option value="">30</option>
+                            <option value="">31</option>
+                        </select>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-md-3"><label class="label-profile" for="">Страна</label></div>
+                    <div class="col-md-9">
+                        <select name="" id="" class="select-profile">
+                            <option value="">Российская федерация</option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                            <option value="">6</option>
+                            <option value="">7</option>
+                            <option value="">8</option>
+                            <option value="">9</option>
+                            <option value="">10</option>
+                            <option value="">11</option>
+                            <option value="">12</option>
+                            <option value="">13</option>
+                            <option value="">14</option>
+                            <option value="">15</option>
+                            <option value="">16</option>
+                            <option value="">17</option>
+                            <option value="">18</option>
+                            <option value="">19</option>
+                            <option value="">20</option>
+                            <option value="">21</option>
+                            <option value="">22</option>
+                            <option value="">23</option>
+                            <option value="">24</option>
+                            <option value="">25</option>
+                            <option value="">26</option>
+                            <option value="">27</option>
+                            <option value="">28</option>
+                            <option value="">29</option>
+                            <option value="">30</option>
+                            <option value="">31</option>
+                        </select>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-md-3"><label class="label-profile" for="">Сайт</label></div>
+                    <div class="col-md-9"><input class="input-profile" type="text" placeholder="ivan.ru"></div>
+                    </div>
+                    <div class="row">
+                    <div class="col-md-3"><label class="label-profile" for=""></label></div>
+                    <div class="col-md-9"><input type="checkbox"><label class="label-profile-checkbox" for="">Учебный аккаунт</label></div>
+                    </div>
+                    <div class="row">
+                    <div class="col-md-3"><label class="label-profile" for="">Ваш email</label></div>
+                    <div class="col-md-9"><input class="input-profile" name="email" type="email" placeholder="ivanov@gmail.com"></div>
+                    </div>
+                    <div class="row">
+                    <div class="col-md-3"><label class="label-profile" for="">Пароль</label></div>
+                    <div class="col-md-9"><input class="input-profile" name="password" type="password" ></div>
+                    </div>
+                    <div id="change_password">
+                    <div class="row"  v-show="profile_password_a">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-9"><a  @click="prof_pass()" class="change_password-profile">Изменить пароль</a></div>
+                    </div>
+                    
+                    <div class="profile-change-password" v-show="profile_password">
+                    <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-9">
+                        <label class="label-profile-change" for="">Новый пароль</label>
+                        <input class="input-profile" name="password" type="password" ></div>
+                    </div>
+                    <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-9">
+                        <label class="label-profile-change" for="">Повторите пароль</label>
+                        <input class="input-profile" name="password" type="password" ></div>
+                    </div>
+
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-9"><button class="profile-submit" type="submit">СОХРАНИТЬ</button></div>
+                    </div>
+                    </div>
+                    
+                        
+                    </div>
+                    </div>
+                    </form>
+
+                    </div>
+                    </div>
+                    </div>
+                    </section>
+
+
+
+    <footer>
+       <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <a href="" class="cybertrassa">Cybertrassa</a>
+                    <p class="copy">&copy; 2017 All rights reserved</p>
+                    <p class="social">
+                        <a href=""><img src="img/facebook.svg" alt=""></a>
+                        <a href=""><img src="img/twitter.svg" alt=""></a>
+                        <a href=""><img src="img/instagram.svg" alt=""></a>
+                    </p>
+                </div>
+                <div class="col-sm-3">
+                    <ul class="nav nav-stacked">
+                        <li><a href="">Компания</a></li>
+                        <li><a href="">Каталог сервисов </a></li>
+                        <li><a href="">Услуги</a></li>
+                        <li><a href="">Обратная связь</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <ul class="nav nav-stacked">
+                        <li><a href="">Terms of Use</a></li>
+                        <li><a href="">Privacy Policy </a></li>
+                        <li><a href="">Site map</a></li>
+                        <li><a href="">Support</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <p class="youtube"><a href=""><img src="img/youtube.svg" alt=""> Наш канал на YouTube</a></p>
+                    <a href="" class="btn inverted-yellow">Подписаться</a>
+                </div>
+            </div>    
+       </div>
+        
+    </footer>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jasny-bootstrap.min.js"></script>
+    <script src="js/vue.js"></script>
+    <script src="js/vue-main.js"></script>
+    <script>window.FileAPI = { staticPath: 'js/FileAPI/dist/' };</script>
+    <script src="js/FileAPI/dist/FileAPI.min.js"></script>
+    <script src="js/main.js"></script>
+    
+    
+</body>
+</html>

@@ -1,0 +1,16 @@
+AddDefaultCharset UTF-8
+
+php_value error_reporting 7
+php_flag display_errors Off
+
+RewriteEngine On
+
+RewriteRule ^admin/?$ admin/index.php [NC,L]
+RewriteRule ^admin/([a-z0-9-]+)/?$ admin/index.php?p=$1 [NC,L] 
+RewriteRule ^admin/([a-z0-9-]+)/([a-z0-9-]+)/?$ admin/index.php?p=$1&c=$2 [NC,L] 
+RewriteRule ^admin/([a-z0-9-]+)/([a-z0-9-]+)/([0-9-]+)/?$ admin/index.php?p=$1&c=$2&n=$3 [NC,L] 
+RewriteRule ^admin/([a-z0-9-]+)/([a-z0-9-]+)/([0-9-]+)/([0-9-]+)/?$ admin/index.php?p=$1&c=$2&n=$3&m=$4 [NC,L] 
+RewriteRule ^([a-z0-9-]+)/?$ index.php?p=$1 [NC,L,QSA] 
+RewriteRule ^([a-z0-9-]+)/([a-z0-9-]+)/?$ index.php?p=$1&n=$2 [NC,L,QSA]
+RewriteRule ^([a-z0-9-]+)/([a-z0-9-]+)/([0-9-]+)/?$ index.php?p=$1&n=$2&c=$3 [NC,L,QSA] 
+

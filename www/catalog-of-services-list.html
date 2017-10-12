@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cybertrassa</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="fonts/ttnorms/ttnorms.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/jasny-bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-select.min.css" rel="stylesheet">
+    <link href="css/slick.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jasny-bootstrap.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]><script src="assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="http://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="http://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="navmenu navmenu-default navmenu-fixed-left offcanvas" id="offcanvas">
+      <a href="#" class="close-offcanvas">
+          <img src="img/close-menu.png"
+             srcset="img/close-menu@2x.png 2x,
+                     img/close-menu@3x.png 3x">
+      </a>
+      <ul class="nav navmenu-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Главная</a>
+              <ul class="dropdown-menu navmenu-nav">
+                <li><a href="#">Сайт</a></li>
+                <li><a href="#">Продвижение</a></li>
+                <li><a href="#">Воронка продаж</a></li>
+                <li><a href="#">Масштабирование</a></li>
+                <li><a href="#">Игра</a></li>
+              </ul>
+            </li>
+          <li><a href="#">Услуги</a></li>
+          <li><a href="#">База знаний</a></li>
+          <li><a href="#">Онлайн-обучение</a></li>
+          <li><a href="#">Каталог сервисов</a></li>
+      </ul>
+    </div>
+    <header class="white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-2">
+                    <a href="/" class="cybertrassa">Cybertrassa</a>
+                </div>
+                <div class="col-lg-8 col-lg-offset-1 col-md-10 hidden-sm hidden-xs">
+                    <ul class="nav nav-pills">
+                      <li><a href="#">О нас</a></li>
+                      <li><a href="#">Услуги</a></li>
+                      <li><a href="#">База знаний</a></li>
+                      <li><a href="#">Онлайн-обучение</a></li>
+                      <li class="active"><a href="#">Каталог сервисов</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <a href="javascript:void(0);" class="hamburger" data-toggle="offcanvas" data-recalc="false" data-target=".navmenu" data-canvas="body">
+            <img src="img/hamburger.png"
+             srcset="img/hamburger@2x.png 2x,
+                     img/hamburger@3x.png 3x">
+        </a>
+        <div class="search">
+            <a href="">
+                <img src="img/search.png"
+                 srcset="img/search@2x.png 2x,
+                     img/search@3x.png 3x">
+            </a>
+            <a href="">
+                <img src="img/user-black.png"
+                 srcset="img/user-black@2x.png 2x,
+                     img/user-black@3x.png 3x">
+            </a>
+        </div>
+    </header>
+    <section class="catalog-filter">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <select class="selectpicker">
+                        <option>Разработка и дизайн сайтов</option>
+                        <option>Счётчики трафика, панели аналитики</option>
+                        <option>Онлайн-платформы для сайтов</option>
+                        <option>Продвижение в соц. сетях</option>
+                        <option>Контекстная реклама</option>
+                        <option></option>
+                        <option></option>
+                        <option></option>
+                    </select>    
+                </div>
+                <div class="col-lg-5 col-lg-offset-1 col-md-6 col-md-offset-0 col-sm-12">
+                    <label class="control control--checkbox">
+                        <input type="checkbox">Наш выбор
+                        <div class="control__indicator"></div>
+                    </label> 
+                    <label class="control control--checkbox">
+                        <input type="checkbox">Предложения партнёра
+                        <div class="control__indicator"></div>
+                    </label>    
+                </div>
+            </div>    
+        </div>
+    </section>
+    <div class="categories-wraper categories-wraper-promo">
+        <section class="catalog-categories catalog-categories-promo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 col-xs-6">
+                        <div class="catalog-category">
+                            <div class="icon"></div>
+                            <p><a href="">Написание контента</a></p>
+                            <img src="img/tr-white.png" alt="" class="tr">
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                        <div class="catalog-category">
+                            <div class="icon"></div>
+                            <p><a href="">Аудит сайта</a></p>
+                            <img src="img/tr-white.png" alt="" class="tr">
+                        </div>
+                    </div>
+                    <div class="clearfix visible-xs"></div>
+                    <div class="catalog-xs-container catalog-xs-container-promo"></div>
+                    <div class="col-sm-3 col-xs-6">
+                        <div class="catalog-category">
+                            <div class="icon"></div>
+                            <p><a href="">SEO, оптимизация</a></p>
+                            <img src="img/tr-white.png" alt="" class="tr">
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                        <div class="catalog-category">
+                            <div class="icon"></div>
+                            <p><a href="">Контекстная реклама</a></p>
+                            <img src="img/tr-white.png" alt="" class="tr">
+                        </div>
+                    </div>
+                    <div class="clearfix visible-xs"></div>
+                    <div class="catalog-xs-container catalog-xs-container-promo"></div>
+                </div>
+            </div>
+        </section>
+        <section class="catalog-category-companies catalog-category-companies-promo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix1</a><img src="img/red-star.png" alt=""></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="clearfix visible-xs"></div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="clearfix visible-xs"></div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="catalog-category-companies catalog-category-companies-promo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix2</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="clearfix visible-xs"></div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="clearfix visible-xs"></div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="catalog-category-companies catalog-category-companies-promo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix3</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="clearfix visible-xs"></div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="clearfix visible-xs"></div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="catalog-category-companies catalog-category-companies-promo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix4</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="clearfix visible-xs"></div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="clearfix visible-xs"></div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="categories-wraper">
+        <section class="catalog-categories">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 col-xs-6">
+                        <div class="catalog-category">
+                            <div class="icon"></div>
+                            <p><a href="">Написание контента</a></p>
+                            <img src="img/tr.png" alt="" class="tr">
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                        <div class="catalog-category">
+                            <div class="icon"></div>
+                            <p><a href="">Аудит сайта</a></p>
+                            <img src="img/tr.png" alt="" class="tr">
+                        </div>
+                    </div>
+                    <div class="clearfix visible-xs"></div>
+                    <div class="catalog-xs-container"></div>
+                    <div class="col-sm-3 col-xs-6">
+                        <div class="catalog-category">
+                            <div class="icon"></div>
+                            <p><a href="">SEO, оптимизация</a></p>
+                            <img src="img/tr.png" alt="" class="tr">
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                        <div class="catalog-category">
+                            <div class="icon"></div>
+                            <p><a href="">Контекстная реклама</a></p>
+                            <img src="img/tr.png" alt="" class="tr">
+                        </div>
+                    </div>
+                    <div class="clearfix visible-xs"></div>
+                    <div class="catalog-xs-container"></div>
+                </div>
+            </div>
+        </section>
+        <section class="catalog-category-companies">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix1</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="clearfix visible-xs"></div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="clearfix visible-xs"></div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="catalog-category-companies">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix2</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="clearfix visible-xs"></div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="clearfix visible-xs"></div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="catalog-category-companies">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix3</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="clearfix visible-xs"></div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="clearfix visible-xs"></div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="catalog-category-companies">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix4</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="clearfix visible-xs"></div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="clearfix visible-xs"></div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="catalog-categories">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 col-xs-6">
+                        <div class="catalog-category">
+                            <div class="icon"></div>
+                            <p><a href="">Написание контента</a></p>
+                            <img src="img/tr.png" alt="" class="tr">
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                        <div class="catalog-category">
+                            <div class="icon"></div>
+                            <p><a href="">Аудит сайта</a></p>
+                            <img src="img/tr.png" alt="" class="tr">
+                        </div>
+                    </div>
+                    <div class="clearfix visible-xs"></div>
+                    <div class="catalog-xs-container"></div>
+                    <div class="col-sm-3 col-xs-6">
+                        <div class="catalog-category">
+                            <div class="icon"></div>
+                            <p><a href="">SEO, оптимизация</a></p>
+                            <img src="img/tr.png" alt="" class="tr">
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                        <div class="catalog-category">
+                            <div class="icon"></div>
+                            <p><a href="">Контекстная реклама</a></p>
+                            <img src="img/tr.png" alt="" class="tr">
+                        </div>
+                    </div>
+                    <div class="clearfix visible-xs"></div>
+                    <div class="catalog-xs-container"></div>
+                </div>
+            </div>
+        </section>
+        <section class="catalog-category-companies">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix1</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="clearfix visible-xs"></div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="clearfix visible-xs"></div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="catalog-category-companies">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix2</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="clearfix visible-xs"></div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="clearfix visible-xs"></div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="catalog-category-companies">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix3</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="clearfix visible-xs"></div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="clearfix visible-xs"></div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="catalog-category-companies">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix4</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="clearfix visible-xs"></div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="clearfix visible-xs"></div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                       <div class="company">
+                        <h4><a href="">Wix</a></h4>
+                        <p><a href="">Широкий спектр интернет-решений для вашего бизнеса.</a></p>   
+                        <p class="web"><a href="">wix.com</a></p> 
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+       <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <a href="" class="cybertrassa">Cybertrassa</a>
+                    <p class="copy">&copy; 2017 All rights reserved</p>
+                    <p class="social">
+                        <a href=""><img src="img/facebook.svg" alt=""></a>
+                        <a href=""><img src="img/twitter.svg" alt=""></a>
+                        <a href=""><img src="img/instagram.svg" alt=""></a>
+                    </p>
+                </div>
+                <div class="col-sm-3">
+                    <ul class="nav nav-stacked">
+                        <li><a href="">Компания</a></li>
+                        <li><a href="">Каталог сервисов </a></li>
+                        <li><a href="">Услуги</a></li>
+                        <li><a href="">Обратная связь</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <ul class="nav nav-stacked">
+                        <li><a href="">Terms of Use</a></li>
+                        <li><a href="">Privacy Policy </a></li>
+                        <li><a href="">Site map</a></li>
+                        <li><a href="">Support</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <p class="youtube"><a href=""><img src="img/youtube.svg" alt=""> Наш канал на YouTube</a></p>
+                    <a href="" class="btn inverted-yellow">Подписаться</a>
+                </div>
+            </div>    
+       </div>
+    </footer>
+    <a href="#" class="top">
+        <img src="img/top.png" alt="">
+    </a>
+</body>
+</html>

@@ -1,0 +1,73 @@
+@black: #000000;
+@black1: #262626;
+@gray-dark: #424242;
+@gray-medium: #bdbdbd;
+@gray-light: #e0e0e0;
+@background: #f5f5f5;
+@green: #00bd4d;
+@green-dark: #00ad47;
+@yellow: #ffcc33;
+@yellow-dark: #ffbb00;
+@seopult-orange-light: #ff991b;
+@seopult-orange-dark: #ff7e15;
+@seopult-background: #fff0dd;
+@red: #ff5252;
+@ligh-blue: #e1f5fe;
+
+.btn {
+  font-family: 'TTNorms-Bold', sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-align: center;
+  padding: 16px 0px 16px;  
+  border-radius: 4px;
+  height: 50px;
+  width: 220px;
+  line-height: 1;
+    font-weight: normal;
+    
+    @media (max-width: @screen-xs-max) {
+        width: 100%;
+    }
+}
+
+.btn.inverted-black {
+  color: @black1;   
+  border: solid 2px @black1;
+}
+
+.btn.inverted-black:hover {
+  color: #ffffff;
+  background-color: @black1;
+}
+
+.btn.inverted-yellow {
+  color: @yellow;   
+  border: solid 2px @yellow;
+}
+
+.btn.inverted-yellow:hover {
+  color: #ffffff;
+  background-color: @yellow;
+}
+
+.btn.green {
+  color: #ffffff;  
+  background-color: @green; 
+  border: solid 2px @green;
+}
+
+.btn.green:hover {
+  background-color: @green-dark;
+  border: solid 2px @green-dark;
+}
+
+.btn.inverted-green {
+  color: @green;   
+  border: solid 2px @green;
+}
+
+.btn.inverted-green:hover {
+  color: #ffffff;
+  background-color: @green;
+}
