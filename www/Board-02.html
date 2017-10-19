@@ -49,8 +49,8 @@
     </div>
 
 <section class="game full-width-game">
-        <!-- <div class="item game-step-1" v-bind:class="{ 'zoom-game': zoom1 }">
-          <div class="speed item-on-game @click="zom1()"">
+        <div class="item" v-if="step1" v-bind:class="{ 'zoom-game': zoom1, 'game-step-1': isActive }" >
+          <div class="speed item-on-game" >
             <img src="img/img-speed-attention.png" alt="">
           </div>
           <div class="town-sell item-on-game">
@@ -59,7 +59,7 @@
           <div class="sitebuilders item-on-game">
             <img src="img/img-right.png" alt="">
           </div>
-          <div class="road-sign item-on-game">
+          <div class="road-sign item-on-game" @click="zom1()">
             <img src="img/img-site.png" alt="">
           </div>
           <div class="sign-walker item-on-game">
@@ -71,16 +71,16 @@
           <div class="sign-stop item-on-game" @click="mess2()">
             <img src="img/img-test.png" alt="">
           </div>
-          <div class="sign-buy-online item-on-game">
+          <div class="sign-buy-online item-on-game" @click="popetap1()">
             <img src="img/img-online-shop.png" alt="">
           </div>
-          <div class="sign-designer item-on-game">
+          <div class="sign-designer item-on-game" >
             <img src="img/img-freelancer.png" alt="">
           </div>
           
-        </div> -->
+        </div>
         <!-- Этап 2 -->
-       <!--  <div class="item game-step-2">
+          <div class="item" v-if="step2" v-bind:class="{ 'zoom-game': zoom22, 'game-step-2': isActive2 }">
          <div class="item-on-game step2-sign1">
            <img src="img/img-visibility.png" alt="">
          </div>
@@ -94,25 +94,25 @@
            <img src="img/img-women.png" alt="">
          </div>
        
-         <div class="item-on-game step2-sign5" >
+         <div class="item-on-game step2-sign5" @click="mess22()">
            <img src="img/img-flunk.png" alt="">
          </div>
-       </div> -->
+       </div> 
        <!-- Этап 2-2 -->
-                <!-- <div class="item game-step-2-2" v-bind:class="{ 'zoom-game': zoom22 }">
-                          <div class="item-on-game step2-2-sign1">
+                 <div class="item" v-if="step22" v-bind:class="{ 'zoom-game': zoom22, 'game-step-2-2': isActive22  }">
+                          <div class="item-on-game step2-2-sign1" @click="zom22()">
                             <img src="img/img-visibility-area.png" alt="">
                           </div>
                           <div class="item-on-game step2-2-sign2">
                             <img src="img/img-promotion-business.png" alt="">
                           </div>
-                          <div class="item-on-game step2-2-sign3" @click="zom22()">
+                          <div class="item-on-game step2-2-sign3" @click="mess3()">
                             <img src="img/img-test.png" alt="">
                           </div>
-                          <div class="item-on-game step2-2-sign4">
+                          <div class="item-on-game step2-2-sign4" @click="popetap2()">
                             <img src="img/img-contextual-ad.png" alt="">
                           </div>
-                          <div class="item-on-game step2-2-sign5">
+                          <div class="item-on-game step2-2-sign5" >
                             <img src="img/img-spam.png" alt="">
                           </div>
                           <div class="item-on-game step2-2-icon1">
@@ -133,14 +133,14 @@
                           <div class="item-on-game step2-2-icon6">
                             <img src="img/ico-google-plus.svg" alt="">
                           </div>  
-                          <div class="item-on-game step2-2-icon7">
+                          <div class="item-on-game step2-2-icon7" >
                             <img src="img/ico-telegram.svg" alt="">
                           </div> 
                           <div class="item-on-game step2-2-icon8">
                             <img src="img/ico-ok.svg" alt="">
                           </div> 
-                        </div>  -->
-        <!-- <div class="item game-step-3" v-bind:class="{ 'zoom-game': zoom3 }">
+                        </div> 
+         <div class="item" v-if="step3" v-bind:class="{ 'zoom-game': zoom3, 'game-step-3': isActive3  }">
           <div class="item-on-game step3-sign1">
             <img src="img/img-atm.png" alt="">
           </div>
@@ -159,15 +159,15 @@
           <div class="item-on-game step3-sign6" @click="zom3()">
             <img src="img/img-crow.svg" alt="">
           </div>
-          <div class="item-on-game step3-sign7">
+          <div class="item-on-game step3-sign7" @click="popetap3()">
             <img src="img/img-box.svg" alt="">
           </div>
-          <div class="item-on-game step3-sign8">
+          <div class="item-on-game step3-sign8" @click="mess4()">
             <img src="img/img-crm.png" alt="">
-          </div> -->
+          </div> 
           
         </div>
-        <div class="item game-step-4" v-bind:class="{ 'zoom-game': zoom4 }">
+        <div class="item " v-if="step4" v-bind:class="{ 'zoom-game': zoom4, 'game-step-4': isActive4  }">
           <div class="item-on-game step4-sign1" @click="zom4()">
             <img src="img/img-traffic-search.png" alt="">
           </div>
@@ -180,7 +180,7 @@
           <div class="item-on-game step4-sign3">
             <img src="img/img-new-strategies.png" alt="">
           </div>
-          <div class="item-on-game step4-sign4">
+          <div class="item-on-game step4-sign4" @click="popetap4()">
             <img src="img/img-exit.png" alt="">
           </div>
           <div class="item-on-game step4-sign5">
@@ -213,8 +213,8 @@
 
           <!-- Начало. Попап - прошли 1 этап. при нажатии чего-то там, этот блок будет появляться. Просто потом расскоментировать -->
                 
-                <!-- <div class="popup-step-passed">
-                  <h2>Поздравляем! Вы прошли 1-й этап!</h2>
+                <div class="popup-step-passed" v-show="pop_complete">
+                  <h2>Поздравляем! Вы прошли {{step_message}}-й этап!</h2>
                   <div class="popup-step-passed-content">
                     <p>Поделиться результатом</p>
                     <div class="social-green">
@@ -230,7 +230,7 @@
                     </div>
                     <input type="text" value="http://cybertrassa.ru/game/stage1" disabled >
                   </div>
-                </div> -->
+                </div> 
             
           <!-- конец -->
           
@@ -280,10 +280,10 @@
                 </div>
                 <div class="col-sm-4 pages-box">
                     <div class="c-panel game-pages">
-                        <a v-bind:class="{ active: isActive }">{{ mes }} 1</a>
-                        <a v-bind:class="{ active: isActive2 }" >{{mes2}} 2</a>
-                        <a v-bind:class="{ active: isActive3 }" @click="mess3()">{{mes3}} 3</a>
-                        <a v-bind:class="{ active: isActive4 }" @click="mess4()">{{mes4}} 4</a>
+                        <a v-bind:class="{ active: isActive }" >{{ mes }} 1</a>
+                        <a v-bind:class="{ active: isActive2, active2: isActive22}" >{{mes2}} 2</a>
+                        <a v-bind:class="{ active: isActive3 }" >{{mes3}} 3</a>
+                        <a v-bind:class="{ active: isActive4 }" >{{mes4}} 4</a>
                     </div>
                 </div>
                 <div class="col-sm-4 hidden-xs">

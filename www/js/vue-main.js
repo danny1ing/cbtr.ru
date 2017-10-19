@@ -27,6 +27,7 @@ var full_width_game = new Vue({
         mes: 'Этап',
         isActive: true,
         isActive2: false,
+        isActive22: false,
         isActive3: false,
         isActive4: false,
         step1: true,
@@ -37,9 +38,26 @@ var full_width_game = new Vue({
         zoom1: false,
         zoom22: false,
         zoom3: false,
-        zoom4: false
+        zoom4: false,
+        pop_complete: false
     },
     methods: {
+        popetap1: function() {
+            this.pop_complete = true,
+            this.step_message = '1'
+        },
+        popetap2: function() {
+            this.pop_complete = true,
+            this.step_message = '2'
+        },
+        popetap3: function() {
+            this.pop_complete = true,
+            this.step_message = '3'
+        },
+        popetap4: function() {
+            this.pop_complete = true,
+            this.step_message = '4'
+        },
         close_popup_share: function() {
             this.popup_share = false
         },
@@ -57,12 +75,11 @@ var full_width_game = new Vue({
         },
         zom4: function() {
             this.zoom4 = true
-        }
-
-        /*,
+        },
         mess: function() {
             this.isActive = true,
             this.isActive2 = false,
+            this.isActive22 = false,
             this.isActive3 = false,
             this.isActive4 = false,
             this.mes = 'Этап',
@@ -73,11 +90,17 @@ var full_width_game = new Vue({
             this.step2 = false,
             this.step22 = false,
             this.step3 = false,
-            this.step4 = false
+            this.step4 = false,
+            this.zoom1 = false,
+            this.zoom22 = false,
+            this.zoom3 = false,
+            this.zoom4 = false
+
         },
         mess2: function() {
             this.isActive = false,
             this.isActive2 = true,
+            this.isActive22 = false,
             this.isActive3 = false,
             this.isActive4 = false,
             this.mes = '',
@@ -88,11 +111,36 @@ var full_width_game = new Vue({
             this.step2 = true,
             this.step22 = false,
             this.step3 = false,
-            this.step4 = false
+            this.step4 = false,
+            this.zoom1 = false,
+            this.zoom22 = false,
+            this.zoom3 = false,
+            this.zoom4 = false
+        },
+        mess22: function() {
+            this.isActive = false,
+            this.isActive2 = false,
+            this.isActive22 = true,
+            this.isActive3 = false,
+            this.isActive4 = false,
+            this.mes = '',
+            this.mes2 = 'Этап',
+            this.mes3 = '',
+            this.mes4 = '',
+            this.step1 = false,
+            this.step2 = false,
+            this.step22 = true,
+            this.step3 = false,
+            this.step4 = false,
+            this.zoom1 = false,
+            this.zoom22 = false,
+            this.zoom3 = false,
+            this.zoom4 = false
         },
         mess3: function() {
             this.isActive = false,
             this.isActive2 = false,
+            this.isActive22 = false,
             this.isActive3 = true,
             this.isActive4 = false,
             this.mes = '',
@@ -103,11 +151,16 @@ var full_width_game = new Vue({
             this.step2 = false,
             this.step22 = false,
             this.step3 = true,
-            this.step4 = false
+            this.step4 = false,
+            this.zoom1 = false,
+            this.zoom22 = false,
+            this.zoom3 = false,
+            this.zoom4 = false
         },
         mess4: function() {
             this.isActive = false,
             this.isActive2 = false,
+            this.isActive22 = false,
             this.isActive3 = false,
             this.isActive4 = true,
             this.mes = '',
@@ -118,8 +171,12 @@ var full_width_game = new Vue({
             this.step2 = false,
             this.step22 = false,
             this.step3 = false,
-            this.step4 = true
-        }*/
+            this.step4 = true,
+            this.zoom1 = false,
+            this.zoom22 = false,
+            this.zoom3 = false,
+            this.zoom4 = false
+        }
 
     }
 })
