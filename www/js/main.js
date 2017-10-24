@@ -16,6 +16,12 @@ $(document).ready(function(){
             $("header").removeClass("sticky");
             $("body").css("padding-top","0");
         }
+        if (window.pageYOffset >= ($("body").offset().top + 900)) {
+            $(".main-avd-pagination").addClass("avd-pagination-fixed");
+        }
+        else {
+            $(".main-avd-pagination").removeClass("avd-pagination-fixed");
+        }
          if (window.pageYOffset >= ($("body").offset().top + 100)) {
             $(".base-left-col").addClass("left-fix");
         }

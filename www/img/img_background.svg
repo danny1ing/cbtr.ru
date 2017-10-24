@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200px" height="800px" viewBox="0 0 1200 800" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 15</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1200" height="800"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Main-100adv-02">
+            <g id="Group-15">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Rectangle-19" fill="#FFCC33" transform="translate(600.000000, 400.000000) scale(-1, 1) translate(-600.000000, -400.000000) " xlink:href="#path-1"></use>
+                <polyline id="Page-1" stroke="#424242" stroke-width="40" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)" transform="translate(990.865558, 717.322337) rotate(-15.000000) translate(-990.865558, -717.322337) " points="1941.63359 832.033697 1219.32207 832.033697 904.708049 517.404724 1104.67237 317.45161 1304.64417 517.404724 846.897395 975.076763 989.02117 1117.19306 1131.12252 975.076763 856.546206 700.171594 40.0975246 700.171594"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>
