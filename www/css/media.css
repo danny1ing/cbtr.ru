@@ -143,6 +143,9 @@
   .main-avd-pagination .btn-pagin:nth-child(5) {
     display: none;
   }
+  .vote-avd-item .vote-img-abs {
+    bottom: -26px;
+  }
 }
 @media (max-width: 720px) {
   .main-avd-pagination .btn-pagin:nth-child(3),
