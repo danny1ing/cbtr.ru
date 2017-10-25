@@ -20,12 +20,14 @@ var dropdown = new Vue({
                profile_history: false
             }
         })
+
 var action = new Vue({
     el: ".companies",
     data: {
         action: false
     }
 })
+
 var full_width_game = new Vue({
     el: ".full-width-game",
     data: {

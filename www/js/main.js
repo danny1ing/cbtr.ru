@@ -6,6 +6,64 @@ $(document).ready(function(){
     $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 });
+
+    $(document).ready(function(){
+        $("#ico2").click(function(){
+            $(".yar2").toggle();
+            $('.yar1').css('display','none');
+            $('.yar3').css('display','none');
+            $('.yar4').css('display','none');
+            $("#ico1").removeClass("icon-active1");
+            $("#ico2").toggleClass("icon-active2");
+            $("#ico3").removeClass("icon-active3");
+            $("#ico4").removeClass("icon-active4");
+
+        });
+        $("#ico3").click(function(){
+            $(".yar3").toggle();
+            $('.yar2').css('display','none');
+            $('.yar1').css('display','none');
+            $('.yar4').css('display','none');
+            $("#ico1").removeClass("icon-active1");
+            $("#ico3").toggleClass("icon-active3");
+            $("#ico2").removeClass("icon-active2");
+            $("#ico4").removeClass("icon-active4");
+
+        });
+        $("#ico1").click(function(){
+            $(".yar1").toggle();
+            $('.yar2').css('display','none');
+            $('.yar3').css('display','none');
+            $('.yar4').css('display','none');
+            $("#ico2").removeClass("icon-active2");
+            $("#ico1").toggleClass("icon-active1");
+            $("#ico3").removeClass("icon-active3");
+            $("#ico4").removeClass("icon-active4");
+
+        });
+        $("#ico4").click(function(){
+            $(".yar4").toggle();
+            $('.yar2').css('display','none');
+            $('.yar3').css('display','none');
+            $('.yar1').css('display','none');
+            $("#ico1").removeClass("icon-active1");
+            $("#ico4").toggleClass("icon-active4");
+            $("#ico3").removeClass("icon-active3");
+            $("#ico2").removeClass("icon-active2");
+
+        });
+        $(".close-ico").click(function(){
+            $('.yar4').css('display','none');
+            $('.yar2').css('display','none');
+            $('.yar3').css('display','none');
+            $('.yar1').css('display','none');
+            $("#ico1").removeClass("icon-active1");
+            $("#ico4").removeClass("icon-active4");
+            $("#ico3").removeClass("icon-active3");
+            $("#ico2").removeClass("icon-active2");
+        });
+    });
+
     
     window.addEventListener('scroll', function(e) {
         if (window.pageYOffset >= ($("body").offset().top + 100)) {

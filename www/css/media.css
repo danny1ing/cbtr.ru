@@ -64,6 +64,10 @@
   }
 }
 @media (max-width: 767px) {
+  .yar1 .yarlick::before,
+  .yar1 .yarlick::after {
+    left: 50%;
+  }
   .avd-col-2 .col-md-5 p {
     padding-left: 30px;
   }
